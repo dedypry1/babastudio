@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Form Registration</title>
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Archivo+Narrow:400,700" rel="stylesheet" type="text/css">
+<link href="styles/style.css" rel="stylesheet" type="text/css" media="all" />
+
+</head>
+<body>
+<div id="logo" class="container">
+	<h1><a href="#">FORM EXERCISE</a></h1>
+</div>
+
+<div id="page" class="container">
+	<div id="box1">
+		<h2 class="title"><a href="#">Member Registration Form</a></h2>
+		<div style="clear: both;">&nbsp;</div>
+		<div class="entry">
+			<p><strong>Fill out the registration form on the side with the correct data. All the fields that exist in this form must be filled</strong></p>
+			
+		</div>
+	</div>
+    
+	<div id="box2">
+   <!-- BUILD FORM PENDAFTARAN START FROM HERE, INCLUDE FULLNAME,USERNAME,PASSWORD,GENDER,BIRTDATE,HOBY,ADDRESS AND SUBMIT BUTTON -->
+   <form action="" id="form_contact" method="POST">
+
+	<table cellspacing="20">
+	  <tr>
+		<td>Full Name</td>
+		<td>:</td>
+		<td> <input type="text" id="fullname" name="fullname" placeholder="Please insert full name" value="" required autocomplete=""></td>
+	  </tr>
+
+	  <tr>
+		<td>Username</td>
+		<td>:</td>
+		<td>
+		  <input type="text" id="username" name="username" placeholder="Please insert username" value="">
+		</td>
+	  </tr>
+
+	  <tr>
+		<td>Pasword</td>
+		<td>:</td>
+		<td>
+		  <input type="password" id="password" name="password" placeholder="Please insert user Password" value="">
+		</td>
+	  </tr>
+
+	  <tr>
+		<td>E-mail</td>
+		<td>:</td>
+		<td>
+		  <input type="email" id="useremail" name="email" placeholder="Please insert email" value="">
+		</td>
+	  </tr>
+
+	  <tr>
+		<td>Gender</td>
+		<td>:</td>
+		<td>
+		  <input type="radio" id="gendermale" name="gender" value="male" checked> &nbsp; Male
+	 &nbsp;&nbsp;&nbsp;&nbsp;
+	 <input type="radio" id="genderfemale" name="gender" value="female"> &nbsp; Female
+		</td>
+	  </tr>
+
+	  <tr>
+		<td>Birthdate</td>
+		<td>:</td>
+		<td>
+		  <input type="date" id="birthdate" name="birthdate">
+ 		</td>
+	 </tr>
+
+		<tr>
+			<td>Hobby</td>
+			<td>:</td>
+			<td>
+			<input type="checkbox" id="sport" name="sport" value="sport"> &nbsp; sport &nbsp;&nbsp;
+			<input type="checkbox" id="travel" name="travel" value="travel"> &nbsp; travel &nbsp;&nbsp;
+			<input type="checkbox" id="cuture" name="cuture" value="cuture"> &nbsp; cuture &nbsp;&nbsp;
+			<br>
+			<input type="checkbox" id="cullinary" name="cullinary" value="cullinary"> &nbsp; cullinary &nbsp;&nbsp;
+			<input type="checkbox" id="shoping" name="shoping" value="shoping"> &nbsp; shoping &nbsp;&nbsp;
+			<input type="checkbox" id="praying" name="praying" value="praying"> &nbsp; praying &nbsp;&nbsp;
+			</td>
+		</tr>
+	
+		<tr>
+			<td valign="top">Message</td>
+			<td valign="top">:</td>
+			<td>
+			<textarea name="message" id="message" placeholder="Address"></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>
+			<input type="submit" id="submit" name="submit" value="submit">
+			&nbsp;&nbsp;
+
+			<input type="reset" id="reset" name="reset" value="reset">
+			</td>
+		</tr>
+		</table>
+
+		</form>
+   		
+	</div>
+    
+    
+    
+</div>
+<div id="footer" class="container">
+	<p>Copyright (c) 2013 Your Name </p>
+</div>
+</body>
+</html>
